@@ -1,0 +1,51 @@
+.esola_lawyers_grid{
+    display: grid;
+    column-gap: 8em ;
+    row-gap: 5em;
+    /* grid-auto-rows: 22rem; */
+    grid-template-columns: repeat(auto-fill,minmax(12rem,1fr));
+}
+
+.esola_lawyers_grid .esola_lawyer_img img{
+    border-radius: 20px;
+    box-shadow: 0px 5px .5em rgb(143, 143, 143);
+}
+.esola_lawyer_img{
+    transition: 0.3s;
+}
+.esola_lawyer_img:hover{
+    transform: translate(0, -10px);
+}
+.esola_lawyer_card h4{
+    font-size: 15px;
+    padding-top: 15px;
+    text-transform: uppercase;
+    font-family: 'Alegreya Sans',Helvetica,Arial,Lucida,sans-serif;
+    color:rgb(99, 99, 99)
+}
+.esola_lawyer_card ul{
+    padding: 1em 0 1em 0 !important;
+}
+.esola_lawyer_card ul li{
+    list-style: none;
+}
+.esola_lawyer_card ul li svg{
+    width: 25px !important;
+    height: 25px !important;
+}
+.esola_lawyer_card ul li svg path{
+    fill: darkgrey !important;
+}
+.esola_lawyer_card ul li svg:hover path{
+    fill: #d2080f !important;
+}
+@media(max-width:768px){
+    
+    .esola_lawyer_img img{
+        max-width: 80%;
+        max-height: 80%;
+    }
+    .esola_lawyer_card h4{
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "esola-plugin/social-lawyers",
+    "autoload": {
+        "psr-4": {
+            "EsolaPlugin\\SocialLawyers\\": "src/",
+            "Lib\\":"src/lib/",
+            "Controller\\":"src/controller",
+            "Model\\":"src/model",
+            "Entity\\":"src/entity"
+        }
+    },
+    "require": {
+        "faapz/pdo": "^2.2",
+        "legomolina/simple-orm": "^2.0"
+    }
+}

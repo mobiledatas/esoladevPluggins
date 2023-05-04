@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => NULL,
+        'name' => 'esola-plugin/social-lawyers',
+        'dev' => true,
+    ),
+    'versions' => array(
+        'esola-plugin/social-lawyers' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => NULL,
+            'dev_requirement' => false,
+        ),
+        'faapz/pdo' => array(
+            'pretty_version' => 'v2.2.1',
+            'version' => '2.2.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../faapz/pdo',
+            'aliases' => array(),
+            'reference' => 'd1de9b42b3d11188886055d93a2d68cc2765fa10',
+            'dev_requirement' => false,
+        ),
+        'legomolina/simple-orm' => array(
+            'pretty_version' => '2.0.1',
+            'version' => '2.0.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../legomolina/simple-orm',
+            'aliases' => array(),
+            'reference' => 'c53cd5e8b3ca7bf3b581ec30e6acf02571f4df11',
+            'dev_requirement' => false,
+        ),
+    ),
+);
